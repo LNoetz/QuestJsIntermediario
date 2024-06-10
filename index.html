@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./src/css/estilo.css">
+    <link rel="stylesheet" href="./src/css/resete.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+    <link rel="shortcut icon" href="./src/imagens/icon.png" type="image/x-icon">
+    <title>Quest HTML + CSS + JS intermediário</title>
+</head>
+
+<body>
+    <main class="conteudo-principal">
+        <section class="informacoes">
+            <h1 class="titulo">FICOU COM DÚVIDA? NOS MANDE UMA MENSAGEM!</h1>
+            <p class="descricao">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em
+                contato em menos de 24h.</p>
+        </section>
+
+        <section class="secao-formulario">
+            <form action="" method="post" class="formulario">
+
+                <input class="camposdepreenchimento" id="nome" name="nome" type="text" placeholder="Nome completo *">
+                <p class="obrigatorio">campo obrigatório</p>
+
+                <input class="camposdepreenchimento" id="email" name="email" type="email" placeholder="Email *">
+                <p class="obrigatorio">campo obrigatório</p>
+
+                <input class="camposdepreenchimento" id="telefone" name="telefone" type="tel" placeholder="Telefone *"
+                    maxlength="11">
+                <p class="obrigatorio">campo obrigatório</p>
+
+                <textarea class="camposdepreenchimento" id="mensagem" name="mensagem" placeholder="Mensagem *"
+                    maxlength="200"></textarea>
+                <p class="obrigatorio">campo obrigatório</p>
+
+                <span class="aviso">*campos obrigatórios</span>
+                <button class="btn-enviar" id="btn-enviar">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>

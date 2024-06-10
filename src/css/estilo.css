@@ -1,0 +1,108 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background: url(../imagens/fundo.png);
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-principal {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    padding: 0 4%;
+}
+
+.conteudo-principal .informacoes {
+    color: #ffffff;
+    margin: 50px;
+    max-width: 300px;
+}
+
+.conteudo-principal .informacoes .titulo {
+    font-size: 20px;
+    font-family: 600;
+    margin-bottom: 11px;
+}
+
+.conteudo-principal .informacoes .descricao {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.secao-formulario {
+    background-color: #ffffff;
+    height: 100%;
+    width: 340px;
+    border: 1px solid #000000
+}
+
+.secao-formulario .formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 20px;
+}
+
+.secao-formulario .formulario input[type=text],
+input[type=email],
+input[type=tel],
+textarea {
+    width: 100%;
+    height: 35px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 20px;
+    font-weight: 700;
+    font-size: 15px;
+
+}
+
+#mensagem {
+    height: 100px;
+    overflow: hidden;
+    resize: none;
+    padding-top: 10px;
+    overflow-y: unset;
+}
+
+.secao-formulario .formulario .aviso {
+    width: 90%;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.secao-formulario .formulario .btn-enviar {
+    width: 290px;
+    height: 40px;
+    margin-top: 15px;
+    background: #3CCC87;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.secao-formulario .formulario .camposdepreenchimento.bordavermelha {
+    border: 1px solid #F52E2E;
+}
+
+.secao-formulario .formulario .camposdepreenchimento.bordaverde {
+    border: 1px solid #00C22B;
+}
+
+.secao-formulario .formulario .obrigatorio {
+    color: #F52E2E;
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 400;
+    opacity: 0;
+}
+
+.secao-formulario .formulario .obrigatorio.mostrar {
+    opacity: 1;
+}

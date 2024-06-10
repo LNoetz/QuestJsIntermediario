@@ -1,0 +1,23 @@
+@media screen and (max-width:768px) {
+    .conteudo-principal {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:450px) {
+    body {
+        align-items: first baseline;
+    }
+
+    .conteudo-principal {
+        padding: 0;
+    }
+
+    .secao-formulario {
+        width: 95%;
+    }
+
+    .secao-formulario .formulario .btn-enviar {
+        width: 90%;
+    }
+}
